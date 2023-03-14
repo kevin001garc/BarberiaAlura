@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Alura</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="shortcut icon" href="../assets/img/logo.ico">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <link rel="stylesheet" href="../assets/css/head/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/footer/footer.css">
+    <link rel="stylesheet" href="../assets/css/main/contactoAlura.css">
+    <link rel="stylesheet" href="../assets/css/head/cabeceraMovil.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <div class="encabezado__logo">
+                <img src="../assets/img/logo.png" alt="Logo de Alura" class="encabezado__logo__img">
+                <p>La vida es corta,disfrútala<br>con un cabello realmente genial</p>
+            </div>
+            <div class="menu">
+                <h2 class="barber">Barberia Alura</h2>
+                <nav>
+                    <ul class="encabezado__nav">
+                        <li class="nav__items"><a href="../index.html">Home</a></li>
+                        <li class="nav__items"><a href="Productos.html">Productos</a></li>
+                        <li class="nav__items"><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="contactoAlura">
+        <form class="formulario">
+            <div class="formulario__container formulario__datos">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" required class="padron">
+                <label for="correo">Correo Electronico</label>
+                <input type="email" id="correo" required class="padron" placeholder="micorreo@dominio.com">
+                <label for="telefono">Telefono</label>
+                <input type="number" id="telefono" requred class="padron" placeholder="xxx-xxxx-xxx">
+                <label for="mensaje" >Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="7" required placeholder="Deja un mensaje"></textarea>
+            </div>
+            
+            <div class="formulario__container">
+                <fieldset class="contacto formulario__contacto">
+                    <legend>¿Como le gustaria ser contactado?</legend>
+                    <label for="email"><input type="radio" name="contacto"value="Email" id="email">Correo</label>
+                    <label for="telefono"><input type="radio" name="contacto" value="Telefono" id="telefono">Telefono</label>
+                    <label for="whatsapp"><input type="radio" name="contacto" value="Telefono" id="whatsapp" checked>WhatsApp</label>
+                </fieldset>
+    
+            </div>
+
+            <div class="formulario__container">
+                <fieldset class="dia">
+                    <legend>¿Cuando le gustaria ser atentido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+            </div>
+            
+            <div class="formulario__container formulario__notif">
+                <label><input type="checkbox" checked>¿Le gustaria recibir notificaciones?</label>
+                <input type="submit" value="Enviar datos" class="enviar">
+            </div>
+
+            
+        </form>
+    </main>
+    <footer>
+        <img src="../assets/img/logo-blanco.png" alt="Logo Alura">
+        <p>&copy Copyright Alura 2022</p>
+    </footer>
+</body>
+</html>

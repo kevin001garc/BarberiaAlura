@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px){
+  .encabezado{
+    flex-direction: column;
+    width: 90%;
+    gap: .5rem;
+  }
+  .encabezado__nav{
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+  }
+}

@@ -1,0 +1,30 @@
+.productos{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.productos__container{
+    padding: 1rem 0;
+    width: 30%;
+    border: 4px solid rgb(9, 9, 153);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos__container p{
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+.productos__container:hover{
+    border-color: rgb(192, 111, 13);
+}
+.producto{
+    text-transform: uppercase;
+    font-family: var(--letra);
+    font-size: 1.5rem;
+}
+.producto:hover{
+    color: rgb(192, 111, 13);
+}

@@ -1,0 +1,11 @@
+.banner{
+    width: 100%;
+}
+.mapa-contenido{
+    padding: 1rem;
+}
+.mapa p{
+    text-align: center;
+    font-family: var(--letra);
+    padding: 10px 0;
+}
